@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let life = 3;
+life--;
+--life;
+console.log("your life limit ramian' ", life);
+let bonuslife = 1;
+bonuslife++;
+++bonuslife;
+console.log("now you get some bonus life:", bonuslife);
+let order = 5;
+order--;
+--order;
+console.log("now your order is: ", order);
+++order;
+order++;
+console.log("now you get some more order your total order is :", order);
